@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuehan Portfolio</title>
+    <title>Johnrick Rabara</title>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -22,7 +22,8 @@
             display: flex;
             justify-content: center;
             align-items: center;    
-            min-height: 100vh;      
+            min-height: auto; /* Allow content to flow naturally */
+            height: 100%;
         }
 
         /* Make the content properly aligned */
@@ -38,7 +39,6 @@
             box-sizing: border-box;
             text-align: left;
         }
-
 
         .profile-pic {
             width: 250px;
@@ -64,12 +64,12 @@
         }
 
         h1 {
-            font-size: 4em;
+            font-size: 2.5rem; /* Use rem for scalable font sizing */
             margin: 10px 0;
         }
 
         p {
-            font-size: 1.2em;
+            font-size: 1.2rem;
             margin: 10px 0;
         }
 
@@ -84,13 +84,13 @@
             color: #00bfff;
             text-decoration: none;
             margin: 0 15px;
-            font-size: 1.5em;
+            font-size: 1.5rem;
             display: inline-flex;
             align-items: left;
         }
 
         .links a i {
-            font-size: 1.2em;
+            font-size: 1.2rem;
             margin-right: 8px;
         }
 
@@ -99,7 +99,7 @@
         }
 
         .footer {
-            font-size: 0.9em;
+            font-size: 0.9rem;
             color: #b0c4de;
             margin-top: 40px;
         }
@@ -129,8 +129,8 @@
 
         @media (max-width: 768px) {
             h1 {
-                font-size: 2.5em;
-                text-align: center; 
+                font-size: 2rem;
+                text-align: center;
             }
 
             .profile-pic {
@@ -141,12 +141,12 @@
             }
 
             .description {
-                font-size: 0.9em;
-                text-align: center; 
+                font-size: 0.9rem;
+                text-align: center;
             }
 
             .links a {
-                font-size: 1.2em;
+                font-size: 1.2rem;
                 margin: 0 10px;
             }
 
@@ -161,8 +161,8 @@
             }
 
             .footer {
-                font-size: 1em;
-                text-align: center; 
+                font-size: 1rem;
+                text-align: center;
             }
 
             .container {
@@ -184,7 +184,7 @@
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 2em;
+                font-size: 2rem;
                 text-align: center;
             }
 
@@ -195,12 +195,12 @@
             }
 
             .description {
-                font-size: 1em;
-                text-align: center; 
+                font-size: 1rem;
+                text-align: center;
             }
 
             .links a {
-                font-size: 1em;
+                font-size: 1rem;
                 margin: 0 8px;
             }
 
@@ -214,8 +214,8 @@
             }
 
             .footer {
-                font-size: 0.8em;
-                text-align: center; 
+                font-size: 0.8rem;
+                text-align: center;
             }
 
             .header {
@@ -247,7 +247,6 @@
             max-width: 1000px;
         }
 
-
         .landing-content {
             display: flex;
             flex-wrap: wrap;
@@ -274,21 +273,20 @@
             max-width: 600px;
         }
 
-
         .landing-text h2 {
-            font-size: 2.5em;
+            font-size: 2.5rem;
             color: #00bfff;
             margin-bottom: 15px;
         }
 
-        .landing-text li{
+        .landing-text li {
             font-size: medium;
             color: #b0c4de;
             margin-bottom: 15px;
         }
 
         .landing-text p {
-            font-size: 1.2em;
+            font-size: 1.2rem;
             color: #b0c4de;
             line-height: 1.6em;
         }
@@ -312,21 +310,21 @@
             }
 
             .landing-text h2 {
-                font-size: 1.8em; 
+                font-size: 1.8rem; 
                 margin-bottom: 10px;
             }
 
             .landing-text p {
-                font-size: 1em; 
+                font-size: 1rem; 
                 line-height: 1.4em;
             }
 
             .landing-text li {
-                font-size: 0.9em;
+                font-size: 0.9rem;
             }
 
             .learn-more-btn {
-                font-size: 1em;
+                font-size: 1rem;
                 padding: 8px 16px;
                 margin-top: 15px; 
             }
@@ -344,32 +342,31 @@
             }
 
             .landing-text h2 {
-                font-size: 1.5em;
+                font-size: 1.5rem;
                 margin-bottom: 8px;
             }
 
             .landing-text p {
-                font-size: 0.9em;
+                font-size: 0.9rem;
                 line-height: 1.3em;
             }
 
             .landing-text li {
-                font-size: 0.8em;
+                font-size: 0.8rem;
             }
 
             .learn-more-btn {
-                font-size: 0.9em;
+                font-size: 0.9rem;
                 padding: 6px 12px;
             }
         }
 
-
         .learn-more-btn {
             display: inline-block;
             margin-top: 20px;
-            padding: 10px 20px;
+            padding: 12px 24px;
             background-color: transparent;
-            font-size: 1.2em;
+            font-size: 1.2rem;
             font-weight: bold;
             text-align: center;
             align-items: center;
@@ -391,7 +388,11 @@
             transform: translateY(0);
             box-shadow: 0 3px 6px rgba(0, 139, 191, 0.5);
         }
-        
+
+        html {
+            scroll-behavior: smooth;
+        }
+
     </style>
 </head>
 <body>
@@ -434,7 +435,6 @@
         <div class="visitor-count">
             <p>Visitor count: </p>
         </div>
-        
 
         <!-- Footer Section -->
         <div class="footer">
@@ -464,15 +464,5 @@
                     </div>
                 </div>
             </div>
-            
 
-            
-            <div class="footer-logos">
-                <img src="images/devcon-logo.png" alt="DEVCON Logo" class="footer-logo">
-                <img src="images/icp-logo.png" alt="ICP Logo" class="footer-logo">
-            </div>
-        </div>
-    </div>
-</body>
-</html>
-
+            <div class="
